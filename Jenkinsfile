@@ -23,7 +23,7 @@ pipeline {
 
             steps {
                 
-                    bat ' test'
+                    echo ' test'
                 
             }
         }
@@ -32,7 +32,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                
-                    bat ' deploy'
+                    echo ' deploy'
                 
             }
         }
