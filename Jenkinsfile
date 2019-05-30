@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                     
-                
+                sh 'checkout' 
             }
         }
 
@@ -14,7 +14,7 @@ pipeline {
 
             steps {
                 
-                    //sh 'Compile '
+                    sh 'Compile '
                 
             }
         }
@@ -23,7 +23,7 @@ pipeline {
 
             steps {
                 
-                    //sh ' test'
+                    sh ' test'
                 
             }
         }
@@ -32,7 +32,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                
-                    //sh ' deploy'
+                    sh ' deploy'
                 
             }
         }
