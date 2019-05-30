@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                     
-                bat 'checkout' 
+                echo 'checkout' 
             }
         }
 
@@ -14,7 +14,7 @@ pipeline {
 
             steps {
                 
-                    bat 'Compile '
+                    echo 'Compile '
                 
             }
         }
